@@ -13,7 +13,7 @@ class ChoiceSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Choice
-        fields = "__all"
+        fields = "__all__"
 
 
 class PollSerializer(serializers.ModelSerializer):
